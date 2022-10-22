@@ -1,0 +1,29 @@
+token: ""
+path:
+- /mnt/chia_plots_1
+- /mnt/chia_plots_2
+- /mnt/chia_plots_3
+- /mnt/chia_plots_4
+- /mnt/chia_plots_5
+- /mnt/chia_plots_6
+- /mnt/chia_plots_7
+- /mnt/chia_plots_8
+minerName: IchiCoinTeam_Farhadi
+apiKey: 
+cachePath: ""
+deviceId: ""
+extraParams: {}
+log:
+  lv: info
+  path: ./log
+  name: miner.log
+url:
+  info: ""
+  submit: ""
+  line: ""
+  ws: ""
+scanPath: false
+scanMinute: 0
+debug: ""
+language: cn
+multithreadingLoad: false

@@ -1,0 +1,24 @@
+########### Mount Drives ############
+sudo apt update
+sudo apt install exfat-fuse
+sudo apt install ntfs-3g
+**sudo blkid
+**sudo nano /etc/fstab
+UUID=5C24-1453 /mnt/chia_plots_1 ntfs defaults,auto,users,rw,nofail,umask=000 0 0
+
+########### Build   Code ############
+Get below Path:
+\home\pi\etc\xdg\lxsession\LXDE-pi\
+
+touch this file:
+autostart
+
+put this lines:
+@lxterminal
+
+
+remove .bashrc
+edit .bashrc:
+cd /home/pi/Desktop
+sleep 60
+python3 chia.py
